@@ -1,2 +1,2 @@
-# blog
-My personal blog
+# My static site
+Markdown files of my personal static website.
