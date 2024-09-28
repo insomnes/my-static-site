@@ -9,5 +9,5 @@ I am interested in DevOps and software development principles in general.
 My goto programming language is Python, but I also enjoy writing in Rust and Go.
 
 ## Social
-- [Github](https://gihub.com/insomnes)
+- [Github](https://github.com/insomnes/)
 - [LinkedIn](https://www.linkedin.com/in/mikhail-dengin/)
