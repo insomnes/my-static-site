@@ -1,5 +1,20 @@
 site_name: Insomnes Corner
 site_url: https://dengin.xyz/
+nav:
+  - Home: index.md
+  - Adevent of Code:
+    - advent_of_code/index.md
+    - 2021:
+      - advent_of_code/2021/index.md
+      - advent_of_code/2021/01_sonar_sweep.md
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      use_pygments: true
+      linenums: true
+      pygments_lang_class: true
+  - pymdownx.superfences
 theme:
   name: material
   palette:
@@ -14,13 +29,15 @@ theme:
       toggle:
         icon: material/lightbulb
         name: Switch to dark mode
-
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
   search: true
   features:
     - navigation.footer
+    - navigation.indexes
+    - content.code.copy
+    - content.code.annotate
 extra:
   social:
     - name: My GitHub
@@ -29,5 +46,4 @@ extra:
     - name: My LinkedIn
       icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/mikhail-dengin/
-
 copyright: Copyright &copy; 2024 Mikhail Dengin
