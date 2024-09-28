@@ -1,5 +1,6 @@
 # Day 1. Sonar sweep
-[Task page](https://adventofcode.com/2021/day/1)
+- [Task page](https://adventofcode.com/2021/day/1)
+- [Full solution source code](https://github.com/insomnes/aoc/tree/main/2021/01_sonar)
 
 ## Part one
 Submarine has sonar and can measure depths.
