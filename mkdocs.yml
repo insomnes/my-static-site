@@ -8,6 +8,7 @@ nav:
     - 2021:
       - advent_of_code/2021/index.md
       - advent_of_code/2021/01_sonar_sweep.md
+      - advent_of_code/2021/02_dive.md
 markdown_extensions:
   - toc:
       permalink: true
