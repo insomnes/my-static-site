@@ -1,7 +1,8 @@
 site_name: Insomnes Corner
 site_url: https://dengin.xyz/
 nav:
-  - Home: index.md
+  - Home:
+    - index.md
   - Projects: my_projects.md
   - Adevent of Code:
     - advent_of_code/index.md
@@ -36,8 +37,12 @@ theme:
     code: 'Roboto Mono'
   search: true
   features:
+    # All top navigation keys are now tabs
+    - navigation.tabs
     - navigation.footer
+    # Allow section pages to have indexes
     - navigation.indexes
+    - navigation.top
     - content.code.copy
     - content.code.annotate
 extra:
