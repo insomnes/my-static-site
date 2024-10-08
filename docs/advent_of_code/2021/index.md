@@ -13,3 +13,8 @@ In this year we are on the quest of getting back lost sleigh keys from oceans de
 [AoC day page](https://adventofcode.com/2021/day/2)
 
 [Parse commands](02_dive.md) and calculate final position of submarine.
+
+## 21 Dirac Dice
+[AoC day page](https://adventofcode.com/2021/day/21)
+
+[Simulate game](21_dice.md) with deterministic and quantum dice while submarine is descending.
