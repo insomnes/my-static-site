@@ -3,6 +3,8 @@ site_url: https://dengin.xyz/
 nav:
   - Home:
     - index.md
+  - Blog:
+    - blog/index.md
   - Projects: my_projects.md
   - Adevent of Code:
     - advent_of_code/index.md
@@ -19,6 +21,12 @@ markdown_extensions:
       linenums: true
       pygments_lang_class: true
   - pymdownx.superfences
+plugins:
+  - search
+  - blog:
+      categories_allowed:
+        - git
+
 theme:
   name: material
   palette:
