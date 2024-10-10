@@ -1,6 +1,7 @@
 ---
 date:
   created: 2024-10-09
+  updated: 2024-10-10
 ---
 
 # Git bisect
@@ -221,11 +222,74 @@ bisect found first bad commit
 
 That's it! You can now fix the bug and continue with your work.
 
+## Skip untestable parts
+Let's say we have another broken script and we don't want to search at which commit
+the specific function was introduced to mark it as good. `git bisect` can help here too!
+First of all put new script `add_elements_wo_dups.py` file to repository dir root:
+```python
+try:
+    from listops import add_elements_wo_dups
+except ImportError:
+    # Exit code 125 notifies bisect process to skip this commit as in `git bisect skip`
+    exit(125)
+
+
+if __name__ == '__main__':
+    lst1 = [1, 1, 22, 22, 3]
+    lst2 = [5, 5, 4, 4]
+    print(f"Adding with removing duplicates: {lst1} + {lst2}")
+    sum = add_elements_wo_dups(lst1, lst2)
+    print(f"Sum without duplicates: {sum}")
+    if sum == [1, 22, 3, 5, 4]:
+        exit(0)
+    else:
+        exit(1)
+```
+As mentioned the key here is to exit with code `125` when commit should be skipped.
+Without this addition `git bisect` will point to the wrong commit as bad (import error 
+leads to exit code `1`).
+
+Let's start our bisecting process again (the `git log ...` part extract first commit 
+from the repo):
+```bash
+git bisect start HEAD $(git log --reverse --oneline | head -n 1 | cut -d ' ' -f1)
+git bisect run python add_elements_wo_dups.py
+```
+
+This will lead to famialiar output of searching for the culprit:
+```
+Bisecting: 5 revisions left to test after this (roughly 3 steps)
+[0f4af123fd8ccdfbeb7eb5b20fcf81d72b985ffb] Speed up remove duplicates
+running 'python' 'add_elements_wo_dups.py'
+Adding with removing duplicates: [1, 1, 22, 22, 3] + [5, 5, 4, 4]
+Sum without duplicates: [1, 3, 4, 5, 22]
+Bisecting: 2 revisions left to test after this (roughly 1 step)
+[6d0a279840995bfc9b54f47649fa2d7b318e70b6] Extend with adding elements
+running 'python' 'add_elements_wo_dups.py'
+Bisecting: 1 revision left to test after this (roughly 1 step)
+[06380b67db56c002d2bdb9d18df60e9c18347dc7] Extend with adding elements and no dups combined
+running 'python' 'add_elements_wo_dups.py'
+...
+Bisecting: 0 revisions left to test after this (roughly 0 steps)
+[1ee708cc82e69a4393583f960e70eca3ac7eba4d] Add single element operation add
+running 'python' 'add_elements_wo_dups.py'
+Adding with removing duplicates: [1, 1, 22, 22, 3] + [5, 5, 4, 4]
+Sum without duplicates: [1, 22, 3, 5, 4]
+0f4af123fd8ccdfbeb7eb5b20fcf81d72b985ffb is the first bad commit
+commit 0f4af123fd8ccdfbeb7eb5b20fcf81d72b985ffb
+...
+    Speed up remove duplicates
+
+ listops.py | 11 +----------
+ 1 file changed, 1 insertion(+), 10 deletions(-)
+bisect found first bad commit
+```
+
 ## Automatically bisecting with temporary modifications
 But what if we have some new modifications in other branch that we need to detect the bug.
-Let's checkout to the `add-tests` branch:
+Let's switch to the `add-tests` branch:
 ```bash
-git checkout add-tests
+git switch add-tests
 ```
 In this branch we have added very simple tests in `test_listops.py`:
 ```bash
@@ -266,6 +330,7 @@ bisect found first bad commit
 Oh no! Bisecting process will checkout to the commit to find the bug,
 but we don't have the tests in this commit. So each time we need to merge the `add-tests` 
 branch to the current branch and run the tests again.
+
 We should find our tests commit hash:
 ```bash
 git log --oneline -1
