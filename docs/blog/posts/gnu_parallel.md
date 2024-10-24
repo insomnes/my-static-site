@@ -3,7 +3,7 @@ date:
   created: 2024-10-24
 ---
 
-# Embarassingly GNU parallel
+# Embarrassingly GNU parallel
 The [GNU parallel](https://www.gnu.org/software/parallel/) is a great tool for
 solving embarrassingly parallel problems. Despite the problem class name parallelization
 is not embarrassing at all and can be hard to implement. In this post I would like to
