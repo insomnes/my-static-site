@@ -8,6 +8,10 @@ serve:
 		--dev-addr=0.0.0.0:8000 \
 		--strict
 
+typos:
+	find . -type f -name '*.md' -exec typos {} \;
+
+
 build:
 	docker run --rm --pull=always -it \
 		-v $(shell pwd):/docs \
