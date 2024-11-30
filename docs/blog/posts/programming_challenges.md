@@ -1,6 +1,7 @@
 ---
 date:
   created: 2024-11-15
+  updated: 2024-11-30
 ---
 
 # Programming Challenges
@@ -30,3 +31,11 @@ My solutions repos (unfinished):
 
 - [Broadcast](https://github.com/insomnes/rggbroadcast)
 
+
+## Coding Challenges
+Link: [Coding Challenges](https://codingchallenges.fyi/)
+
+Description: A collection of "Build your own X" challenges with a limited scope of X.
+For example, build your own wc, cat, grep, etc. The scope is also set with step-by-step
+approach, so you can develop your solution incrementally. Great way to finally answer
+"What project should I build to learn this $language?".
