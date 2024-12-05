@@ -8,6 +8,9 @@ nav:
   - Projects: my_projects.md
   - Adevent of Code:
     - advent_of_code/index.md
+    - 2024:
+      - advent_of_code/2024/index.md
+      - advent_of_code/2024/01_history.md
     - 2021:
       - advent_of_code/2021/index.md
       - advent_of_code/2021/01_sonar_sweep.md

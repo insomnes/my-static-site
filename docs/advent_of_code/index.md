@@ -6,4 +6,5 @@ I believe that documenting my solutions will help me learn and improve my progra
 All of my solutions are available on my [aoc repository](https://github.com/insomnes/aoc).
 
 ## All Years
+- [2024](2024/index.md)
 - [2021](2021/index.md)
