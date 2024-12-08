@@ -1,5 +1,6 @@
 # Advent of Code 2024
-In this year we are looking for lost Chief Historian elf.
+In this year we are looking for lost Chief Historian elf through all important
+events and places of The Advent of Code history.
 
 And I've decided to refresh my Go skills by solving AoC challenges with it.
 
@@ -20,3 +21,8 @@ And I've decided to refresh my Go skills by solving AoC challenges with it.
 [AoC day page](https://adventofcode.com/2024/day/3)
 
 [Help shopkeeper with computer](03_mull.md). Run multiplications from "corrupted memory".
+
+## 04 Ceres Search
+[AoC day page](https://adventofcode.com/2024/day/4)
+
+[Help elf on the Ceres station](04_ceres.md). Finx word XMAS on the text grid.
