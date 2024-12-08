@@ -79,3 +79,7 @@ func PartTwo(inp ParsedInput) int {
 	return res
 }
 ```
+
+## Tags
+- two lists
+- sorting

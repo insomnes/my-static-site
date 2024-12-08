@@ -15,3 +15,8 @@ And I've decided to refresh my Go skills by solving AoC challenges with it.
 [AoC day page](https://adventofcode.com/2024/day/2)
 
 [Check the unusual data](02_reports.md). Find the "unsafe" levels in reports by provided rules.
+
+## 03 Mull It Over
+[AoC day page](https://adventofcode.com/2024/day/3)
+
+[Help shopkeeper with computer](03_mull.md). Run multiplications from "corrupted memory".

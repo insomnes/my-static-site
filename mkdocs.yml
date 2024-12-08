@@ -12,6 +12,7 @@ nav:
       - advent_of_code/2024/index.md
       - advent_of_code/2024/01_history.md
       - advent_of_code/2024/02_reports.md
+      - advent_of_code/2024/03_mull.md
     - 2021:
       - advent_of_code/2021/index.md
       - advent_of_code/2021/01_sonar_sweep.md

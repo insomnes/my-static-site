@@ -182,3 +182,8 @@ func PartTwo(inp ParsedInput) int {
     return safe
 }
 ```
+
+## Tags
+- backtracking
+- DFS
+- state space
