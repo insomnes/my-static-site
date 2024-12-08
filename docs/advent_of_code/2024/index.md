@@ -31,3 +31,8 @@ And I've decided to refresh my Go skills by solving AoC challenges with it.
 [AoC day page](https://adventofcode.com/2024/day/5)
 
 [Sort sleigh manual pages](05_queue.md). The twist is in the very specific sorting rules.
+
+## 06 Guard Gallivant
+[AoC day page](https://adventofcode.com/2024/day/6)
+
+[Avoid guard in the past](06_guard.md). Help historains to understand the guard's movements.
