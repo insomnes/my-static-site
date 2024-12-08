@@ -26,3 +26,8 @@ And I've decided to refresh my Go skills by solving AoC challenges with it.
 [AoC day page](https://adventofcode.com/2024/day/4)
 
 [Help elf on the Ceres station](04_ceres.md). Finx word XMAS on the text grid.
+
+## 05 Print Queue
+[AoC day page](https://adventofcode.com/2024/day/5)
+
+[Sort sleigh manual pages](05_queue.md). The twist is in the very specific sorting rules.
