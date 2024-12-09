@@ -36,3 +36,8 @@ And I've decided to refresh my Go skills by solving AoC challenges with it.
 [AoC day page](https://adventofcode.com/2024/day/6)
 
 [Avoid guard in the past](06_guard.md). Help historains to understand the guard's movements.
+
+## 07 Bridge Repair
+[AoC day page](https://adventofcode.com/2024/day/7)
+
+[Help engineers with bridge repair](07_repair.md). Find how to add `+` and `*` to the equation to get the desired result.
