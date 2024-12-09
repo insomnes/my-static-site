@@ -41,3 +41,8 @@ And I've decided to refresh my Go skills by solving AoC challenges with it.
 [AoC day page](https://adventofcode.com/2024/day/7)
 
 [Help engineers with bridge repair](07_repair.md). Find how to add `+` and `*` to the equation to get the desired result.
+
+## 08 Resonant Collinearity
+[AoC day page](https://adventofcode.com/2024/day/8)
+
+[Find antenas antinodes](08_resonant.md). Search for the specific collinear points on the grid.
