@@ -18,6 +18,7 @@ nav:
       - advent_of_code/2024/06_guard.md
       - advent_of_code/2024/07_repair.md
       - advent_of_code/2024/08_resonant.md
+      - advent_of_code/2024/09_disk.md
     - 2021:
       - advent_of_code/2021/index.md
       - advent_of_code/2021/01_sonar_sweep.md

@@ -46,3 +46,8 @@ And I've decided to refresh my Go skills by solving AoC challenges with it.
 [AoC day page](https://adventofcode.com/2024/day/8)
 
 [Find antenas antinodes](08_resonant.md). Search for the specific collinear points on the grid.
+
+## 09 Disk Fragmenter
+[AoC day page](https://adventofcode.com/2024/day/9)
+
+[(De)fragment the disk](09_disk.md). Help amphipod to move files on the disk.
