@@ -56,3 +56,8 @@ And I've decided to refresh my Go skills by solving AoC challenges with it.
 [AoC day page](https://adventofcode.com/2024/day/10)
 
 [Hike on the Lava Island](10_hoof.md). Help reinder to find the specific paths on the grid.
+
+## 11 Plutonian Pebbles
+[AoC day page](https://adventofcode.com/2024/day/11)
+
+[Don't blink on the Plutonian Pebbles](11_pebbles.md). Count marvellous pebbles.
