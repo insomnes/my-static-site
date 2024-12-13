@@ -104,6 +104,7 @@ func PartOne(inp ParsedInput) uint64 {
 ## Part Two
 Part two is literally the same as part one, but with the bigger number of blinks, so 
 brute force solution would be too slow:
+
 ```go
 func PartTwo(inp ParsedInput) uint64 {
 	defer Track(time.Now(), "PartTwo")
@@ -113,6 +114,7 @@ func PartTwo(inp ParsedInput) uint64 {
 
 	return total
 }
+```
 
 ## Tags
 - counter
