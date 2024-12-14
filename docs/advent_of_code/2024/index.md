@@ -67,3 +67,8 @@ And I've decided to refresh my Go skills by solving AoC challenges with it.
 [AoC day page](https://adventofcode.com/2024/day/13)
 
 [Mash claw machine buttons](13_claw.md). Find the right combination to get the prize.
+
+## 14 Restroom Redoubt
+[AoC day page](https://adventofcode.com/2024/day/14)
+
+[Observe restroom guard robots](14_restroom.md). Find the right moment twice.
