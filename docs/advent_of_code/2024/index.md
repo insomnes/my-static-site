@@ -60,15 +60,19 @@ And I've decided to refresh my Go skills by solving AoC challenges with it.
 ## 11 Plutonian Pebbles
 [AoC day page](https://adventofcode.com/2024/day/11)
 
-[Don't blink on the Plutonian Pebbles](11_pebbles.md). Count marvellous pebbles.
+[Don't blink on the Plutonian Pebbles](11_pebbles.md). Count the pebbles smart way.
 
+## 12 Garden Groups
+[AoC day page](https://adventofcode.com/2024/day/12)
+
+[Help gardener with fences](12_garden.md). Calculate polygons properties on the grid.
 
 ## 13 Claw Contraption
 [AoC day page](https://adventofcode.com/2024/day/13)
 
-[Mash claw machine buttons](13_claw.md). Find the right combination to get the prize.
+[Mash claw machine buttons](13_claw.md). Solve some equations to get the desired result.
 
 ## 14 Restroom Redoubt
 [AoC day page](https://adventofcode.com/2024/day/14)
 
-[Observe restroom guard robots](14_restroom.md). Find the right moment twice.
+[Observe restroom guard robots](14_restroom.md). Simulate the guard robots movements.
