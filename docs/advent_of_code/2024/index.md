@@ -61,3 +61,9 @@ And I've decided to refresh my Go skills by solving AoC challenges with it.
 [AoC day page](https://adventofcode.com/2024/day/11)
 
 [Don't blink on the Plutonian Pebbles](11_pebbles.md). Count marvellous pebbles.
+
+
+## 13 Claw Contraption
+[AoC day page](https://adventofcode.com/2024/day/13)
+
+[Mash claw machine buttons](13_claw.md). Find the right combination to get the prize.
