@@ -76,3 +76,8 @@ And I've decided to refresh my Go skills by solving AoC challenges with it.
 [AoC day page](https://adventofcode.com/2024/day/14)
 
 [Observe restroom guard robots](14_restroom.md). Simulate the guard robots movements.
+
+## 15 Warehouse Woes
+[AoC day page](https://adventofcode.com/2024/day/15)
+
+[Help lanternfish with food warehouse](15_warehouse.md). Move boxes with collision detection.
