@@ -6,7 +6,7 @@ nav:
   - Blog:
     - blog/index.md
   - Projects: my_projects.md
-  - Adevent of Code:
+  - Advent of Code:
     - advent_of_code/index.md
     - 2024:
       - advent_of_code/2024/index.md
