@@ -25,6 +25,7 @@ nav:
       - advent_of_code/2024/13_claw.md
       - advent_of_code/2024/14_restroom.md
       - advent_of_code/2024/15_warehouse.md
+      - advent_of_code/2024/18_ramrun.md
     - 2021:
       - advent_of_code/2021/index.md
       - advent_of_code/2021/01_sonar_sweep.md

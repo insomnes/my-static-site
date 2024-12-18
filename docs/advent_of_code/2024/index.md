@@ -81,3 +81,8 @@ And I've decided to refresh my Go skills by solving AoC challenges with it.
 [AoC day page](https://adventofcode.com/2024/day/15)
 
 [Help lanternfish with food warehouse](15_warehouse.md). Move boxes with collision detection.
+
+## 18 Ram Run
+[AoC day page](https://adventofcode.com/2024/day/18)
+
+[Run out of RAM block](18_ramrun.md). Don't get blocked on the RAM grid by falling bytes.
