@@ -1,4 +1,4 @@
-# Adevent of Code
+# Advent of Code
 Here are my solutions to the [Advent of Code](https://adventofcode.com/) challenges.
 I believe that documenting my solutions will help me learn and improve my programming skills.
 
