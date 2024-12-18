@@ -33,7 +33,9 @@ func prepareStartGrid(fallingBytes FallingBytes, size int, timeFrame int) *Grid[
 With the shortest path search we can implement 
 [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) 
 or [A* (a-star) algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm) which is 
-an optimization for the former.
+an optimization for the former. But Dijkstra on the equally weighted grid is the same as
+BFS. A* would do a minor optimization by using a heuristic metric to prioritize steps
+closer to the end point.
 
 To have them go we would need [the priority queue (or a heap)](https://github.com/insomnes/aoc/blob/main/2024/18_ramrun/solution/heap.go).
 
