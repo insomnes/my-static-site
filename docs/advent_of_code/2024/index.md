@@ -82,6 +82,11 @@ And I've decided to refresh my Go skills by solving AoC challenges with it.
 
 [Help lanternfish with food warehouse](15_warehouse.md). Move boxes with collision detection.
 
+## 17 Chronospatial Computer
+[AoC day page](https://adventofcode.com/2024/day/17)
+
+[Debug historians computer](17_computer.md). Wrtite the emulator and quine for the computer.
+
 ## 18 Ram Run
 [AoC day page](https://adventofcode.com/2024/day/18)
 
