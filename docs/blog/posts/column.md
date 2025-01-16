@@ -26,7 +26,7 @@ curl -s https://opendata.rijdendetreinen.nl/public/stations/stations-2023-09.csv
 Check the first 5 rows of the file:
 
 ```bash
- head -n 5 stations-2023.csv
+ head -n 5 stations-2023-09.csv
 ```
 It should look like this:
 
