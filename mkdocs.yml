@@ -64,6 +64,9 @@ theme:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
+  favicon: images/favicon.svg
+  icon:
+    logo: material/monitor-eye
   search: true
   features:
     # All top navigation keys are now tabs
