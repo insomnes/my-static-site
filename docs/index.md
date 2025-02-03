@@ -16,3 +16,4 @@ My goto programming language is Python, but I also enjoy writing in Rust and Go.
 ## Social
 - [Github](https://github.com/insomnes/)
 - [LinkedIn](https://www.linkedin.com/in/mikhail-dengin/)
+- [Email](mailto:mikhail@dengin.xyz)
