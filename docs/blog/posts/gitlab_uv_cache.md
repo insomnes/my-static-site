@@ -27,6 +27,7 @@ COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
 ## Caveats of uv
 Before using `uv`, you should be aware of some of its by-default quirks:
+
 - python installations come from 
   [Python Standalone Builds project](https://github.com/astral-sh/python-build-standalone), 
   you can read more on this project's quirks [here](https://gregoryszorc.com/docs/python-build-standalone/main/quirks.html),
